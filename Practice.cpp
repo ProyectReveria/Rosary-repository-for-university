@@ -24,3 +24,6 @@ int main(){
     std::cout<<"la hipotenusa es igual a: " << c; 
     return 0; 
 }
+
+
+// tambien se puede usar C = sqrt(pow(a,2)+pow(b,2)); deberia dar el mismo resultado
