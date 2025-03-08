@@ -6,6 +6,9 @@
 int main(){
     double nota1;
     double nota2;
+    int aprobados = 0;
+    int reprobados = 0;
+    
     std::cout << "bienvenido al sistema de notas, ahora en C++"; 
     std::cout << " introdusca la primera nota";
     std::cin >> nota1;
@@ -15,7 +18,8 @@ int main(){
     std::cout << "aqui esta el promedio " << promedio; 
 
     if (promedio >= 70){
-        std::cout << "+Estudiante aprobado";
+        std::cout << "Estudiante aprobado";
+        
     }else{
         std::cout << "-estudiante reprobado";
     }
