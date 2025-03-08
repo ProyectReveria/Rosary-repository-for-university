@@ -5,7 +5,7 @@ Passcode = "EmpleadoAcceso"
 
 #def userinput 
 userinput = input ("Ingrese su usuario").lower()
-passcodeinput = input("Ingrese su contraseña").lower()
+passcodeinput = input("Ingrese su contraseña")
 
 #Definventario (Todo lo relacionado al inventario)
 Laptops = 2
