@@ -13,7 +13,7 @@ def UI():
     print("\n Bienvenido a una prueba de piedra papel o tigera en Python")
 
 #listas de Ramdom.choice
-eleccionState = random.randint(0, 1)
+eleccionState = random.randint(0, 1, 2)
 
 #puntuaciones
 def resultados():
